@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-burguer" id="nav_logo"> Food</i>
+
+            <ul id="nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-defeault">
+                Peça Aqui
+            </button>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-defeault">
+                Peça Aqui
+            </button>
+
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor vai até
+                    <span>você</span>
+                </h1>
+                <p id="description">
+                    Não dá pra voltar no tempo, mas sempre dá pra pedir pizza!
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-defeault">
+                        Ver cardápio
+                    </a>
+
+                    <a href="tel:+11951299771" id="phone_button">
+                        <button class="btn-defeault">
+                            <i class="fa-solid fa-phone"></i>
+                            (11) 95129-9771
+                        </button>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://contate.me/kaiiquecosta">WhatsApp"
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://contate.me/kaiiquecosta">WhatsApp"
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://contate.me/kaiiquecosta">WhatsApp"
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+
+                <div id="banner">
+                    <img src="src/images/hero.png" alt="">
+
+                </div>
+        </section>
+    </main>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+
+</html>
